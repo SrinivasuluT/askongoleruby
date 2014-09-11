@@ -1,0 +1,22 @@
+
+
+Processing HelloController#index (for 127.0.0.1 at 2014-09-11 15:08:33) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:104:in `service'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/httpserver.rb:65:in `run'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:173:in `start_thread'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:162:in `start_thread'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:95:in `start'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `each'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:92:in `start'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:23:in `start'
+  /home/sreekanth/.rvm/rubies/ruby-1.8.7-p374/lib/ruby/1.8/webrick/server.rb:82:in `start'
+
+Rendering rescues/layout (not_found)
+
+
+Processing HelloController#index (for 127.0.0.1 at 2014-09-11 15:09:14) [GET]
+Rendering hello/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/hello/index]
